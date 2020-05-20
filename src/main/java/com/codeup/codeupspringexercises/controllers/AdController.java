@@ -1,10 +1,10 @@
 package com.codeup.codeupspringexercises.controllers;
 
-import com.codeup.springblogapp.model.Ad;
-import com.codeup.springblogapp.model.User;
-import com.codeup.springblogapp.repositories.AdRepository;
-import com.codeup.springblogapp.repositories.UserRepository;
-import com.codeup.springblogapp.services.EmailService;
+import com.codeup.codeupspringexercises.model.Ad;
+import com.codeup.codeupspringexercises.model.User;
+import com.codeup.codeupspringexercises.repositories.AdRepository;
+import com.codeup.codeupspringexercises.repositories.UserRepository;
+import com.codeup.codeupspringexercises.services.EmailService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;

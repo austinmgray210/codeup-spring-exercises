@@ -1,6 +1,6 @@
 package com.codeup.codeupspringexercises;
 
-import com.codeup.springblogapp.services.UserDetailsLoader;
+import com.codeup.codeupspringexercises.services.UserDetailsLoader;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

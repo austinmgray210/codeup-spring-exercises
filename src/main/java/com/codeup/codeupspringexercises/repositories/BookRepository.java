@@ -1,6 +1,6 @@
 package com.codeup.codeupspringexercises.repositories;
 
-import com.codeup.springblogapp.model.Book;
+import com.codeup.codeupspringexercises.model.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,7 +1,7 @@
 package com.codeup.codeupspringexercises.controllers;
 
-import com.codeup.springblogapp.model.Book;
-import com.codeup.springblogapp.repositories.BookRepository;
+import com.codeup.codeupspringexercises.model.Book;
+import com.codeup.codeupspringexercises.repositories.BookRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 

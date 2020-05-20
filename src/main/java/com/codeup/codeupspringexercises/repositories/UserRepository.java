@@ -1,6 +1,6 @@
 package com.codeup.codeupspringexercises.repositories;
 
-import com.codeup.springblogapp.model.User;
+import com.codeup.codeupspringexercises.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {
