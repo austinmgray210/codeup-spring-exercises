@@ -80,7 +80,7 @@ public class PostController {
             return "redirect:/posts/" + post.getId();
         }
         model.addAttribute("post", post);
-        return "/posts/edit";
+        return "posts/edit";
     }
 
     @PostMapping("/posts/{id}/edit")
@@ -109,7 +109,7 @@ public class PostController {
         Post post = new Post();
         post.setUser(user);
         model.addAttribute("post", post);
-        return "/posts/edit";
+        return "posts/edit";
     }
 
     @PostMapping("/posts/{id}/delete")
